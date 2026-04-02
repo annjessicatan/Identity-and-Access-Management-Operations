@@ -2,7 +2,7 @@
 
 > **Portfolio Project:** Complete walkthrough of TryHackMe's "Active Directory Basics" room  
 > **Role Simulated:** Junior Domain Administrator for THM.local  
-> **Date Completed:** [Insert Date]  
+> **Date Completed:** 04/02/2026 
 > **Tools Used:** Active Directory Users & Computers (ADUC), Group Policy Management Console (GPMC), PowerShell, RDP, Windows Server
 
 ## 📌 Overview
@@ -27,47 +27,123 @@ Through this lab, I moved beyond theory and actually:
 | **PowerShell** | `Set-ADAccountPassword`, `Set-ADUser`, `gpupdate /force` |
 | **Authentication** | Understanding Kerberos (TGT, TGS) vs NetNTLM challenge-response |
 
-## 📂 Repository Structure
-
-- `README.md` — You are here
-- `walkthrough.md` — Step-by-step lab guide with commands
-- `glossary.md` — Key AD terms (OUs, GPOs, SPN, TGT, etc.)
-- `assets/`
-  - `screenshots/`
-    - `task-3/` — ADUC interface, OU hierarchy
-    - `task-4/` — Delegation, PowerShell, flag retrieval
-    - `task-5/` — Computer OUs before/after
-    - `task-6/` — GPO configurations, verification
-    - `diagrams/` — Kerberos flow, Trust relationships
-- `CHALLENGES.md` — Problems encountered & solutions
-
 
 ## 🖼️ Screenshot Evidence by Task
 
 All screenshots are located in `/assets/screenshots/`. Below is a map of what each image proves:
 
-| Task | Screenshot | What It Demonstrates |
-|------|-----------|---------------------|
-| **Task 3** | `task-3/ou-hierarchy.png` | THM OU with 5 child OUs (IT, Management, Marketing, R&D, Sales) |
-| | `task-3/creating-students-ou.png` | Created custom "Students" OU (follow-along activity) |
-| **Task 4** | `task-4/delete-protection-error.png` | Encountered accidental deletion protection (problem-solving moment) |
-| | `task-4/advanced-features-enabled.png` | Enabled Advanced Features in View menu |
-| | `task-4/disable-protection-checkbox.png` | Unchecked "Protect from accidental deletion" |
-| | `task-4/delegation-wizard-collage.png` | Delegated password reset to Phillip (wizard steps grouped) |
-| | `task-4/powershell-reset.png` | `Set-ADAccountPassword` and `Set-ADUser` commands |
-| | `task-4/sophie-flag.png` | **Flag retrieved** from Sophie's desktop ✅ |
-| **Task 5** | `task-5/computers-before.png` | All machines in default "Computers" container |
-| | `task-5/ou-structure-final.png` | Workstations + Servers OUs created under thm.local |
-| | `task-5/computers-after.png` | PCs/laptops moved to Workstations, servers to Servers OU |
-| **Task 6** | `task-6/gpmc-overview.png` | Group Policy Management Console with full OU hierarchy |
-| | `task-6/default-password-policy.png` | Changed minimum password length to 10 characters |
-| | `task-6/restrict-control-panel.png` | Enabled "Prohibit Access to Control Panel" policy |
-| | `task-6/gpo-linking.png` | Restrict Control Panel linked to Marketing, Management, Sales OUs |
-| | `task-6/auto-lock-policy.png` | Set inactivity limit to 5 minutes |
-| | `task-6/verification-mark-denied.png` | **Logged in as Mark** — Control Panel access denied ✅ |
-| **Diagrams** | `diagrams/kerberos-flow.png` | Visual: Client → KDC → TGT → TGS → Service |
-| | `diagrams/netntlm-flow.png` | Visual: Challenge-response mechanism |
-| | `diagrams/trees-forests.png` | thm.local → uk.thm.local + us.thm.local + MHT Inc. forest |
+<table style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="width: 10%; text-align: left; padding: 12px;">Task</th>
+      <th style="width: 50%; text-align: left; padding: 12px;">Screenshot</th>
+      <th style="width: 40%; text-align: left; padding: 12px;">What It Demonstrates</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 3</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/aa1e1605-ff48-4cc6-8c91-9f8542f1c2f7" width="100%" alt="THM OU hierarchy"></td>
+      <td style="padding: 12px; vertical-align: top;">THM OU with 5 child OUs (IT, Management, Marketing, R&D, Sales)</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 3</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/e4eda256-1f2f-411d-97e4-d12b6246ce7c
+" width="100%" alt="Created Custom Student OU"></td>
+      <td style="padding: 12px; vertical-align: top;">Created custom "Students" OU (follow-along activity)</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>task-4/delete-protection-error.png</code></td>
+      <td style="padding: 12px; vertical-align: top;">Encountered accidental deletion protection (problem-solving moment)</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>task-4/advanced-features-enabled.png</code></td>
+      <td style="padding: 12px; vertical-align: top;">Enabled Advanced Features in View menu</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>task-4/disable-protection-checkbox.png</code></td>
+      <td style="padding: 12px; vertical-align: top;">Unchecked "Protect from accidental deletion"</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>task-4/delegation-wizard-collage.png</code></td>
+      <td style="padding: 12px; vertical-align: top;">Delegated password reset to Phillip (wizard steps grouped)</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>task-4/powershell-reset.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><code>Set-ADAccountPassword</code> and <code>Set-ADUser</code> commands</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>task-4/sophie-flag.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><strong>Flag retrieved</strong> from Sophie's desktop ✅</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 5</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>task-5/computers-before.png</code></td>
+      <td style="padding: 12px; vertical-align: top;">All machines in default "Computers" container</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 5</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>task-5/ou-structure-final.png</code></td>
+      <td style="padding: 12px; vertical-align: top;">Workstations + Servers OUs created under thm.local</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 5</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>task-5/computers-after.png</code></td>
+      <td style="padding: 12px; vertical-align: top;">PCs/laptops moved to Workstations, servers to Servers OU</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 6</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>task-6/gpmc-overview.png</code></td>
+      <td style="padding: 12px; vertical-align: top;">Group Policy Management Console with full OU hierarchy</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 6</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>task-6/default-password-policy.png</code></td>
+      <td style="padding: 12px; vertical-align: top;">Changed minimum password length to 10 characters</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 6</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>task-6/restrict-control-panel.png</code></td>
+      <td style="padding: 12px; vertical-align: top;">Enabled "Prohibit Access to Control Panel" policy</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 6</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>task-6/gpo-linking.png</code></td>
+      <td style="padding: 12px; vertical-align: top;">Restrict Control Panel linked to Marketing, Management, Sales OUs</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 6</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>task-6/auto-lock-policy.png</code></td>
+      <td style="padding: 12px; vertical-align: top;">Set inactivity limit to 5 minutes</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 6</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>task-6/verification-mark-denied.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><strong>Logged in as Mark</strong> — Control Panel access denied ✅</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Diagrams</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>diagrams/kerberos-flow.png</code></td>
+      <td style="padding: 12px; vertical-align: top;">Visual: Client → KDC → TGT → TGS → Service</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Diagrams</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>diagrams/netntlm-flow.png</code></td>
+      <td style="padding: 12px; vertical-align: top;">Visual: Challenge-response mechanism</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Diagrams</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><code>diagrams/trees-forests.png</code></td>
+      <td style="padding: 12px; vertical-align: top;">thm.local → uk.thm.local + us.thm.local + MHT Inc. forest</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 🔑 Key Concepts I Learned
 
