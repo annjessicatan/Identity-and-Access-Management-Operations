@@ -48,9 +48,8 @@ All screenshots are located in `/assets/screenshots/`. Below is a map of what ea
     </tr>
     <tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Task 3</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/e4eda256-1f2f-411d-97e4-d12b6246ce7c
-" width="100%" alt="Created Custom Student OU"></td>
-      <td style="padding: 12px; vertical-align: top;">Created custom "Students" OU (follow-along activity)</td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/d7ac7b7d-34f4-4661-9df2-1e98172001fbf" width="100%" alt="Created Custom Student OU"></td>
+      <td style="padding: 12px; vertical-align: top;">Created custom "Students" OU</td>
     </tr>
     <tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
