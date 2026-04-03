@@ -30,8 +30,6 @@ Through this lab, I moved beyond theory and actually:
 
 ## 🖼️ Screenshot Evidence by Task
 
-All screenshots are located in `/assets/screenshots/`. Below is a map of what each image proves:
-
 <table style="width: 100%; border-collapse: collapse;">
   <thead>
     <tr>
@@ -45,20 +43,24 @@ All screenshots are located in `/assets/screenshots/`. Below is a map of what ea
       <td style="padding: 12px; vertical-align: top;"><strong>Task 3</strong></td>
       <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/aa1e1605-ff48-4cc6-8c91-9f8542f1c2f7" width="100%" alt="THM OU hierarchy"></td>
       <td style="padding: 12px; vertical-align: top;">THM OU with 5 child OUs (IT, Management, Marketing, R&D, Sales)</td>
-    </tr>
+    </tr> 
     <tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Task 3</strong></td>
       <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/d7ac7b7d-34f4-4661-9df2-1e98172001fbf" width="100%" alt="Created Custom Student OU"></td>
       <td style="padding: 12px; vertical-align: top;">Created custom "Students" OU</td>
     </tr>
     <tr>
-      <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>task-4/delete-protection-error.png</code></td>
-      <td style="padding: 12px; vertical-align: top;">Encountered accidental deletion protection (problem-solving moment)</td>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 3</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/1aa91d80-18fe-4c82-afe7-02d12b95c155" width="100%" alt="Disabled users"></td>
+      <td style="padding: 12px; vertical-align: top;">Disabled users whose names aren't showing in the existing AD OUs</td>
     </tr>
     <tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>task-4/advanced-features-enabled.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/0cf967e7-797e-4a49-ac45-634c87f18931" width="100%" alt="deletion protection"></td>
+      <td style="padding: 12px; vertical-align: top;">Encountered accidental deletion protection (problem-solving moment)</td>
+    </tr>
+      <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/f8323401-cac3-49e2-b19d-24820ccdb218" width="100%" alt="deletion protection"></td>
       <td style="padding: 12px; vertical-align: top;">Enabled Advanced Features in View menu</td>
     </tr>
     <tr>
