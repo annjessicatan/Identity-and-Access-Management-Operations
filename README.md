@@ -2,12 +2,12 @@
 
 > **Portfolio Project:** Complete walkthrough of TryHackMe's "Active Directory Basics" room  
 > **Role Simulated:** Junior Domain Administrator for THM.local  
-> **Date Completed:** 04/02/2026 
+> **Date Completed:** 04/02/2026  
 > **Tools Used:** Active Directory Users & Computers (ADUC), Group Policy Management Console (GPMC), PowerShell, RDP, Windows Server
 
 ## 📌 Overview
 
-Microsoft Active Directory (AD) is the backbone of identity and access management in over 90% of Fortune 1000 companies. This repository documents my hands-on journey learning AD fundamentals by acting as a newly hired IT administrator tasked with organizing, securing, and managing the **THM.local** domain.
+Microsoft Active Directory (AD) is the backbone of identity and access management in over 90% of Fortune 1000 companies. This repository documents my hands-on journey learning AD fundamentals by acting as a newly hired IT administrator tasked with organizing, securing and managing the **THM.local** domain.
 
 Through this lab, I moved beyond theory and actually:
 - Created/deleted Organizational Units (OUs)
@@ -63,9 +63,9 @@ Through this lab, I moved beyond theory and actually:
       <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/f8323401-cac3-49e2-b19d-24820ccdb218" width="100%" alt="deletion protection"></td>
       <td style="padding: 12px; vertical-align: top;">Enabled Advanced Features in View menu</td>
     </tr>
-    <tr>
+    <tr> 
       <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>task-4/disable-protection-checkbox.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/32be9bf9-a3a5-4373-bf6e-d414bab6cdc8" width="100%" alt="deletion protection"></td>
       <td style="padding: 12px; vertical-align: top;">Unchecked "Protect from accidental deletion"</td>
     </tr>
     <tr>
