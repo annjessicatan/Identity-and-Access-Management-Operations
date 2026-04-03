@@ -65,12 +65,12 @@ Through this lab, I moved beyond theory and actually:
     </tr>
     <tr> 
       <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/32be9bf9-a3a5-4373-bf6e-d414bab6cdc8" width="100%" alt="deletion protection"></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/29168a63-4719-440b-84a0-5cbe15efdd3f" width="100%" alt="deletion protection"></td>
       <td style="padding: 12px; vertical-align: top;">Unchecked "Protect from accidental deletion"</td>
     </tr>
     <tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>task-4/delegation-wizard-collage.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/6827d0c4-07be-43d7-9a61-e0791b7ac4b7" width="100%" alt="deletion protection"</td>
       <td style="padding: 12px; vertical-align: top;">Delegated password reset to Phillip (wizard steps grouped)</td>
     </tr>
     <tr>
