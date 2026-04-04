@@ -85,17 +85,17 @@ Through this lab, I moved beyond theory and actually:
     </tr>
     <tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Task 5</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>task-5/computers-before.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/c77eaf1b-f5eb-4b33-b1fc-9ec03c2409f2" width="100%" alt="set ADAccount and password"></td>
       <td style="padding: 12px; vertical-align: top;">All machines in default "Computers" container</td>
     </tr>
-    <tr>
+    <tr> 
       <td style="padding: 12px; vertical-align: top;"><strong>Task 5</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>task-5/ou-structure-final.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/74d5e88d-bfc6-48d9-997c-102f1636e9da" width="100%" alt="set ADAccount and password"></td>
       <td style="padding: 12px; vertical-align: top;">Workstations + Servers OUs created under thm.local</td>
     </tr>
     <tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Task 5</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>task-5/computers-after.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/80920ca7-39c0-45e3-8204-68af6946d2ef" width="100%" alt="set ADAccount and password"></td>
       <td style="padding: 12px; vertical-align: top;">PCs/laptops moved to Workstations, servers to Servers OU</td>
     </tr>
     <tr>
@@ -229,10 +229,10 @@ This room is foundational. My learning roadmap continues with:
 
 ## 📫 Connect With Me
 
-- **LinkedIn:** [Your LinkedIn URL]
-- **GitHub:** [Your GitHub Profile]
-- **Portfolio:** [Your Website if applicable]
-- **Email:** [Your Email]
+- **LinkedIn:** www.linkedin.com/in/annjessicatan
+- **GitHub:** [[Your GitHub Profile]](https://github.com/annjessicatan)
+- **Portfolio:** N/A
+- **Email:** ajessicavtan@gmail.com
 
 ---
 
