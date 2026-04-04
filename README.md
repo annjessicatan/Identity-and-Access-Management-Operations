@@ -98,34 +98,34 @@ Through this lab, I moved beyond theory and actually:
       <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/80920ca7-39c0-45e3-8204-68af6946d2ef" width="100%" alt="set ADAccount and password"></td>
       <td style="padding: 12px; vertical-align: top;">PCs/laptops moved to Workstations, servers to Servers OU</td>
     </tr>
-    <tr>
+    <tr> 
       <td style="padding: 12px; vertical-align: top;"><strong>Task 6</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>task-6/gpmc-overview.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/b631fc26-2342-45db-a137-a142b8e83048" width="100%" alt="set ADAccount and password"></td>
       <td style="padding: 12px; vertical-align: top;">Group Policy Management Console with full OU hierarchy</td>
     </tr>
     <tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Task 6</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>task-6/default-password-policy.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/46806650-f32f-4dbb-a747-aa2039bde17d" width="100%" alt="set ADAccount and password"></td>
       <td style="padding: 12px; vertical-align: top;">Changed minimum password length to 10 characters</td>
     </tr>
-    <tr>
+    <tr> 
       <td style="padding: 12px; vertical-align: top;"><strong>Task 6</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>task-6/restrict-control-panel.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/7df59b4f-9881-4de4-84ac-361a583c5cbc" width="100%" alt="set ADAccount and password"></td>
       <td style="padding: 12px; vertical-align: top;">Enabled "Prohibit Access to Control Panel" policy</td>
     </tr>
     <tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Task 6</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>task-6/gpo-linking.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/976d7871-7eab-4c48-82fa-ea978cbf7313" width="100%" alt="set ADAccount and password"></td>
       <td style="padding: 12px; vertical-align: top;">Restrict Control Panel linked to Marketing, Management, Sales OUs</td>
-    </tr>
+    </tr> 
     <tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Task 6</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>task-6/auto-lock-policy.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/336d0f7d-c1ee-476c-a30a-f7c791ca0be4" width="100%" alt="set ADAccount and password"></td>
       <td style="padding: 12px; vertical-align: top;">Set inactivity limit to 5 minutes</td>
     </tr>
     <tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Task 6</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>task-6/verification-mark-denied.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/d9f0ac75-3c70-4fd8-906f-d62613bffb87" width="100%" alt="set ADAccount and password"></td>
       <td style="padding: 12px; vertical-align: top;"><strong>Logged in as Mark</strong> — Control Panel access denied ✅</td>
     </tr>
     <tr>
@@ -202,16 +202,17 @@ All objectives were successfully completed:
 | AttackBox | Used for RDP connections |
 | Credentials Used | Administrator, Phillip, Mark, Sophie |
 
-## 📝 Commands Reference
+## 📝 Commands Reference (Powershell)
 
-```powershell
-# Force GPO sync on any machine
-gpupdate /force
+### Force GPO sync on any machine
+<img width="410" height="96" alt="13 force update" src="https://github.com/user-attachments/assets/c2817c6d-03f7-4396-aa48-1389e1bbe861" />
 
-# Reset user password (requires delegation or admin rights)
+
+### Reset user password (requires delegation or admin rights)
 Set-ADAccountPassword sophie -Reset -NewPassword (Read-Host -AsSecureString)
 
-# Force password change at next logon
+###  
+Force password change at next logon
 Set-ADUser -ChangePasswordAtLogon $true -Identity sophie
 ```
 
