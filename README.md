@@ -130,17 +130,17 @@ Through this lab, I moved beyond theory and actually:
     </tr>
     <tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Diagrams</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>diagrams/kerberos-flow.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/bb946bfe-27e7-49dd-b34b-45551f244e71" width="100%" alt="set ADAccount and password"></td>
       <td style="padding: 12px; vertical-align: top;">Visual: Client → KDC → TGT → TGS → Service</td>
     </tr>
     <tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Diagrams</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>diagrams/netntlm-flow.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/85ecca15-130d-4681-a311-8994a4b69087" width="100%" alt="set ADAccount and password"></td>
       <td style="padding: 12px; vertical-align: top;">Visual: Challenge-response mechanism</td>
     </tr>
     <tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Diagrams</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>diagrams/trees-forests.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/4a7e6c51-c1b3-44c3-9a09-02d6a9f5e3ef" width="100%" alt="set ADAccount and password"></td>
       <td style="padding: 12px; vertical-align: top;">thm.local → uk.thm.local + us.thm.local + MHT Inc. forest</td>
     </tr>
   </tbody>
