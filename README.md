@@ -209,12 +209,12 @@ All objectives were successfully completed:
 
 
 ### Reset user password (requires delegation or admin rights)
-Set-ADAccountPassword sophie -Reset -NewPassword (Read-Host -AsSecureString)
+<img width="834" height="142" alt="11111111" src="https://github.com/user-attachments/assets/cec4ec2a-8bbb-46fa-acfd-1d3d9d5c21f9" />
 
-###  
-Force password change at next logon
-Set-ADUser -ChangePasswordAtLogon $true -Identity sophie
-```
+
+### Force password change at next logon  
+<img width="653" height="31" alt="2222222" src="https://github.com/user-attachments/assets/3736a48b-2a7c-44e4-afc1-8d6b6b9db40c" />
+
 
 ## 🚀 What's Next?
 
