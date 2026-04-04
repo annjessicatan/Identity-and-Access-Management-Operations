@@ -60,27 +60,27 @@ Through this lab, I moved beyond theory and actually:
       <td style="padding: 12px; vertical-align: top;">Encountered accidental deletion protection (problem-solving moment)</td>
     </tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/f8323401-cac3-49e2-b19d-24820ccdb218" width="100%" alt="deletion protection"></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/f8323401-cac3-49e2-b19d-24820ccdb218" width="100%" alt="enabled advanced features"></td>
       <td style="padding: 12px; vertical-align: top;">Enabled Advanced Features in View menu</td>
     </tr>
     <tr> 
       <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/29168a63-4719-440b-84a0-5cbe15efdd3f" width="100%" alt="deletion protection"></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/29168a63-4719-440b-84a0-5cbe15efdd3f" width="100%" alt="Unchecked protection"></td>
       <td style="padding: 12px; vertical-align: top;">Unchecked "Protect from accidental deletion"</td>
     </tr>
     <tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/6827d0c4-07be-43d7-9a61-e0791b7ac4b7" width="100%" alt="deletion protection"</td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/6827d0c4-07be-43d7-9a61-e0791b7ac4b7" width="100%" alt="delegation of password"></td>
       <td style="padding: 12px; vertical-align: top;">Delegated password reset to Phillip (wizard steps grouped)</td>
     </tr>
     <tr>
       <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>task-4/powershell-reset.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/e2a0178f-88cc-4cbc-acee-b6a490fbcd84" width="100%" alt="set ADAccount and password"></td>
       <td style="padding: 12px; vertical-align: top;"><code>Set-ADAccountPassword</code> and <code>Set-ADUser</code> commands</td>
     </tr>
-    <tr>
+    <tr> 
       <td style="padding: 12px; vertical-align: top;"><strong>Task 4</strong></td>
-      <td style="padding: 12px; vertical-align: top;"><code>task-4/sophie-flag.png</code></td>
+      <td style="padding: 12px; vertical-align: top;"><img src="https://github.com/user-attachments/assets/b098f8d1-3a8d-4f0e-a68a-a92ada45eaa0" width="100%" alt="set ADAccount and password"></td>
       <td style="padding: 12px; vertical-align: top;"><strong>Flag retrieved</strong> from Sophie's desktop ✅</td>
     </tr>
     <tr>
