@@ -1,4 +1,4 @@
-# 🏛️ Identity & Access Management Operations | Active Directory Basics — TryHackMe Walkthrough
+# 🏛️ Active Directory Basics — TryHackMe Walkthrough
 
 > **Portfolio Project:** Complete walkthrough of TryHackMe's "Active Directory Basics" room  
 > **Role Simulated:** Junior Domain Administrator for THM.local  
