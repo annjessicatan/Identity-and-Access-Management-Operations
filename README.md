@@ -232,7 +232,7 @@ This room is foundational. My learning roadmap continues with:
 
 - **LinkedIn:** www.linkedin.com/in/annjessicatan
 - **GitHub:** https://github.com/annjessicatan
-- **Portfolio:** (https://annjessicatan.github.io/)
+- **Portfolio:** https://annjessicatan.github.io/
 - **Email:** ajessicavtan@gmail.com
 
 ---
