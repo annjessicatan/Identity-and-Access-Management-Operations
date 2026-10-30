@@ -231,8 +231,8 @@ This room is foundational. My learning roadmap continues with:
 ## 📫 Connect With Me
 
 - **LinkedIn:** www.linkedin.com/in/annjessicatan
-- **GitHub:** [[Your GitHub Profile]](https://github.com/annjessicatan)
-- **Portfolio:** N/A
+- **GitHub:** https://github.com/annjessicatan
+- **Portfolio:** (https://annjessicatan.github.io/)
 - **Email:** ajessicavtan@gmail.com
 
 ---
